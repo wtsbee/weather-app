@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root 'weathers#index'
+  root 'maps#index'
+  resources :maps do
+    resources :weathers
+  end
 end
