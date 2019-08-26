@@ -3,12 +3,19 @@ require 'uri'
 require 'json'
 
 class WeathersController < ApplicationController
+
   def index
+  end
+
+  def show
     uri = URI.parse("http://192.168.33.10:8000/")
     request = Net::HTTP::Post.new(uri)
     request.content_type = "application/json"
     request.body = JSON.dump({
-      "city": "横浜"
+      "city": "横浜",
+      "from_dt": "1/1",
+      "to_dt": "2/1",
+      "sort_key": "1日の降水量(mm)"
     })
     req_options = {
       use_ssl: uri.scheme == "https",
