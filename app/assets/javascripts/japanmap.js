@@ -1,6 +1,6 @@
 $(function(){
   var areaLinks = {
-    1:"javascript:void(0)"
+    1:"maps/1"
   };
 
   var areas = [
