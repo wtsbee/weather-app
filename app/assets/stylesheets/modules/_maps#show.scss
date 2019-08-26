@@ -1,0 +1,22 @@
+.prefecture-map {
+  background-image: image-url("maps/hokkaido.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Sapporo {
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    font-size: 11px;
+    &:hover {
+      cursor: pointer;
+    }
+    a {
+      padding: 1px;
+      background-color: white;
+    }
+  }
+}
+
