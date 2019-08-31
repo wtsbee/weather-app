@@ -66,6 +66,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 茨城県 --------------------------------------------------------------
+  function buildHTML_map_8(){
+    var html = `<div class="prefecture-map-8">
+                  <div id="Mito_Ibaraki">
+                    <a class="location" data-prefecture="茨城県" data-location="水戸市">◉水戸市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

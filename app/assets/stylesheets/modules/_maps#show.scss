@@ -101,3 +101,17 @@
     left: 325px;
   }
 }
+// 茨城県 --------------------------------------------------------------
+.prefecture-map-8 {
+  background-image: image-url("maps/Ibaraki.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Mito_Ibaraki {
+    @include location;
+    top: 235px;
+    left: 305px;
+  }
+}
