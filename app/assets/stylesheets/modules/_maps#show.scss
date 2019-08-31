@@ -59,3 +59,17 @@
     left: 220px;
   }
 }
+// 秋田県 --------------------------------------------------------------
+.prefecture-map-5 {
+  background-image: image-url("maps/Akita.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Akita_Akita {
+    @include location;
+    top: 230px;
+    left: 200px;
+  }
+}

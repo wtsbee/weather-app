@@ -39,6 +39,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 秋田県 --------------------------------------------------------------
+  function buildHTML_map_5(){
+    var html = `<div class="prefecture-map-5">
+                  <div id="Akita_Akita">
+                    <a class="location" data-prefecture="秋田県" data-location="秋田市">◉秋田市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
