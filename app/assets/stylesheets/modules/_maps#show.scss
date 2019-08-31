@@ -129,3 +129,17 @@
     left: 275px;
   }
 }
+// 群馬県 --------------------------------------------------------------
+.prefecture-map-10 {
+  background-image: image-url("maps/Gunma.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Maebashi_Gunma {
+    @include location;
+    top: 300px;
+    left: 260px;
+  }
+}

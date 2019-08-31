@@ -84,6 +84,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 群馬県 --------------------------------------------------------------
+  function buildHTML_map_10(){
+    var html = `<div class="prefecture-map-10">
+                  <div id="Maebashi_Gunma">
+                    <a class="location" data-prefecture="群馬県" data-location="前橋市">◉前橋市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
