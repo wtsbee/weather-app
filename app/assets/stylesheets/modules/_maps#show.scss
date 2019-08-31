@@ -297,3 +297,17 @@
     left: 190px;
   }
 }
+// 静岡県 --------------------------------------------------------------
+.prefecture-map-22 {
+  background-image: image-url("maps/Shizuoka.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Shizuoka_Shizuoka {
+    @include location;
+    top: 290px;
+    left: 260px;
+  }
+}

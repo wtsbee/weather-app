@@ -192,6 +192,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //岐阜県 --------------------------------------------------------------
+  function buildHTML_map_22(){
+    var html = `<div class="prefecture-map-22">
+                  <div id="Shizuoka_Shizuoka">
+                    <a class="location" data-prefecture="静岡県" data-location="静岡市">◉静岡市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
