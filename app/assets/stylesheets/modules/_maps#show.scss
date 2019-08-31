@@ -31,3 +31,17 @@
     left: 240px;
   }
 }
+// 岩手県 --------------------------------------------------------------
+.prefecture-map-3 {
+  background-image: image-url("maps/Iwate.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Morioka_Iwate {
+    @include location;
+    top: 215px;
+    left: 200px;
+  }
+}

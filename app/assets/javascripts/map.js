@@ -1,5 +1,6 @@
 $(document).on('turbolinks:load', function(){
 
+  // 北海道 --------------------------------------------------------------
   function buildHTML_map_1(){
     var html = `<div class="prefecture-map-1">
                   <div id="Sapporo_Hokkaido">
@@ -11,11 +12,20 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-
+  // 青森県 --------------------------------------------------------------
   function buildHTML_map_2(){
     var html = `<div class="prefecture-map-2">
                   <div id="Aomori_Aomori">
                     <a class="location" data-prefecture="青森県" data-location="青森市">◉青森市</a>
+                  </div>
+                </div>`
+    return html;
+  }
+  // 岩手県 --------------------------------------------------------------
+  function buildHTML_map_3(){
+    var html = `<div class="prefecture-map-3">
+                  <div id="Morioka_Iwate">
+                    <a class="location" data-prefecture="岩手県" data-location="盛岡市">◉盛岡市</a>
                   </div>
                 </div>`
     return html;
