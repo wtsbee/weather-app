@@ -1,0 +1,14 @@
+.prefecture
+  = @prefecture
+.location
+  = @location
+
+.folder-lists-container
+  = form_with url: map_weathers_path, local: true, class: 'submit-form' do |f|
+    = f.hidden_field :location, value: @location
+    = f.text_field :from_dt, class: 'from_dt'
+    = f.text_field :to_dt, class: 'to_dt'
+    = f.select :sort_key, ['日付', '雨の日数(日)', '1日の降水量(mm)', '最高気温(℃)', '最低気温(℃)', '平均気温(℃)'], {prompt: "---"}
+    = f.submit '検索', class: 'submit-btn'
+
+.show-html

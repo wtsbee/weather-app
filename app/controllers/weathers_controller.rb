@@ -5,26 +5,28 @@ require 'json'
 class WeathersController < ApplicationController
 
   def index
+    @location = params[:location]
+    @prefecture = params[:prefecture]
   end
 
-  def show
+  def create
     uri = URI.parse("http://192.168.33.10:8000/")
     request = Net::HTTP::Post.new(uri)
     request.content_type = "application/json"
     request.body = JSON.dump({
-      "city": "横浜",
-      "from_dt": "1/1",
-      "to_dt": "2/1",
-      "sort_key": "1日の降水量(mm)"
+      "city": params[:location],
+      "from_dt": params[:from_dt],
+      "to_dt": params[:to_dt],
+      "sort_key": params[:sort_key]
     })
     req_options = {
       use_ssl: uri.scheme == "https",
     }
-
+    # binding.pry
     response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
       http.request(request)
     end
-
+    # binding.pry
     begin
       # responseの値に応じて処理を分ける
       case response
@@ -35,6 +37,9 @@ class WeathersController < ApplicationController
         # 表示用の変数に結果を格納
         @header = result["header"]
         @record = result["record"]
+        respond_to do |format|
+          format.json { render json: {header: @header, record: @record}}
+        end
       # 別のURLに飛ばされた場合
       when Net::HTTPRedirection
         @message = "Redirection: code=#{response.code} message=#{response.message}"
