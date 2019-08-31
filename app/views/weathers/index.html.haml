@@ -6,7 +6,7 @@
     .location
       = @location
     = f.hidden_field :location, value: @location
-    .start_date
+    .start-date
       開始日
       %select.js-changeMonth{name: "from_dt_month"}
         %option{:value => "1"} 1
@@ -55,7 +55,7 @@
         %option{:value => "30"} 30
         %option{:value => "31"} 31
       日
-    .end_date
+    .end-date
       終了日
       %select.js-changeMonth{name: "to_dt_month"}
         %option{:value => "1"} 1
@@ -104,7 +104,7 @@
         %option{:value => "30"} 30
         %option{:value => "31"} 31
       日
-    .sort_filed
+    .sort-field
       ソートキー
       = f.select :sort_key, ['日付', '雨の日数(日)', '1日の降水量(mm)', '最高気温(℃)', '最低気温(℃)', '平均気温(℃)']
     = f.submit '検索', class: 'submit-btn'

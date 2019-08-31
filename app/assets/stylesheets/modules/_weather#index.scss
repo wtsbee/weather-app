@@ -1,6 +1,50 @@
 .folder-lists-container {
   width: 485px;
   margin: 0 auto;
+  .submit-form {
+    // width: 100px;
+    .prefecture {
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .location {
+      margin-bottom: 2px;
+    }
+    .start-date {
+      margin-bottom: 2px;
+      select {
+        position: relative;
+        top: 1px;
+        font-size: 14px;
+        height: 22px;
+      }
+    }
+    .end-date {
+      margin-bottom: 2px;
+      select {
+        position: relative;
+        top: 1px;
+        font-size: 14px;
+        height: 22px;
+      }
+    }
+    .sort-field {
+      margin-bottom: 2px;
+      select {
+        position: relative;
+        top: 1px;
+        font-size: 14px;
+        height: 22px;
+      }
+    }
+    .submit-btn {
+      margin-bottom: 2px;
+      background-color: #FFFFFE;
+      padding: 0 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
 }
 .show-html {
   table {
