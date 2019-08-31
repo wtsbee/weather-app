@@ -241,3 +241,17 @@
     left: 210px;
   }
 }
+// 福井県 --------------------------------------------------------------
+.prefecture-map-18 {
+  background-image: image-url("maps/Fukui.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Fukui_Fukui {
+    @include location;
+    top: 150px;
+    left: 275px;
+  }
+}

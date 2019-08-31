@@ -156,6 +156,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //福井県 --------------------------------------------------------------
+  function buildHTML_map_18(){
+    var html = `<div class="prefecture-map-18">
+                  <div id="Fukui_Fukui">
+                    <a class="location" data-prefecture="福井県" data-location="福井市">◉福井市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
