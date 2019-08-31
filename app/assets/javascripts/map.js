@@ -75,6 +75,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 栃木県 --------------------------------------------------------------
+  function buildHTML_map_9(){
+    var html = `<div class="prefecture-map-9">
+                  <div id="Utsunomiya_Tochigi">
+                    <a class="location" data-prefecture="栃木県" data-location="宇都宮市">◉宇都宮市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

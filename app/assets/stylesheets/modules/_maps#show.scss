@@ -115,3 +115,17 @@
     left: 305px;
   }
 }
+// 栃木県 --------------------------------------------------------------
+.prefecture-map-9 {
+  background-image: image-url("maps/Tochigi.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Utsunomiya_Tochigi {
+    @include location;
+    top: 300px;
+    left: 275px;
+  }
+}
