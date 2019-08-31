@@ -210,6 +210,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //三重県 --------------------------------------------------------------
+  function buildHTML_map_24(){
+    var html = `<div class="prefecture-map-24">
+                  <div id="Tsu_Mie">
+                    <a class="location" data-prefecture="三重県" data-location="津市">◉津市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

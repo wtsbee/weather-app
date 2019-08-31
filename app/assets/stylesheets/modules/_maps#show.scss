@@ -325,3 +325,17 @@
     left: 110px;
   }
 }
+// 三重県 --------------------------------------------------------------
+.prefecture-map-24 {
+  background-image: image-url("maps/Mie.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Tsu_Mie {
+    @include location;
+    top: 175px;
+    left: 275px;
+  }
+}
