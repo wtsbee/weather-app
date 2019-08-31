@@ -54,9 +54,12 @@ $(function(){
     })
     .done(function(data){
       var html = buildHTML(data["header"], data["record"]);
-      console.log(data);
-      console.log(data["record"]);
+      $('.show-html').children().remove();
       $('.show-html').append(html)
+    })
+    // 連続でボタンが押せるようにする
+    .always(function(data){
+      $('.submit-btn').prop('disabled', false);
     })
   })
 
