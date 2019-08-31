@@ -5,3 +5,15 @@
     clear: both;
   }
 }
+
+@mixin location {
+  position: absolute;
+  font-size: 11px;
+  &:hover {
+    cursor: pointer;
+  }
+  a {
+    padding: 1px;
+    background-color: white;
+  }
+}
