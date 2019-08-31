@@ -1,8 +1,13 @@
-$(function(){
+$(document).on('turbolinks:load', function(){
 
-  function buildHTML(){
-    var html = `<div id="Sapporo">
-                  <a class="location" data-prefecture="北海道" data-location="札幌市">札幌市</a>
+  function buildHTML_map_1(){
+    var html = `<div class="prefecture-map-1">
+                  <div id="Sapporo_Hokkaido">
+                    <a class="location" data-prefecture="北海道" data-location="札幌市">札幌市</a>
+                  </div>
+                  <div id="Kitami_Hokkaido">
+                    <a class="location" data-prefecture="北海道" data-location="北見市">北見市</a>
+                  </div>
                 </div>`
     return html;
   }
@@ -12,12 +17,149 @@ $(function(){
     // 現在ページのURL取得
     var url   = location.href;
   
-    // URLに/maps/1が含まれていたら実行
-    if(document.URL.match("/maps/1")) {
-      var html = buildHTML();
+    // URLに/maps/◯◯が含まれていたら実行
+    if(document.URL.match("/maps/47")) {
+      var html = buildHTML_map_47();
       $('.prefecture-map').append(html)
-    }
-  
+    } else if(document.URL.match("/maps/46")) {
+      var html = buildHTML_map_46();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/45")) {
+      var html = buildHTML_map_45();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/44")) {
+      var html = buildHTML_map_44();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/43")) {
+      var html = buildHTML_map_43();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/42")) {
+      var html = buildHTML_map_42();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/41")) {
+      var html = buildHTML_map_41();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/40")) {
+      var html = buildHTML_map_40();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/39")) {
+      var html = buildHTML_map_39();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/38")) {
+      var html = buildHTML_map_38();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/37")) {
+      var html = buildHTML_map_37();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/36")) {
+      var html = buildHTML_map_36();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/35")) {
+      var html = buildHTML_map_35();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/34")) {
+      var html = buildHTML_map_34();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/33")) {
+      var html = buildHTML_map_33();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/32")) {
+      var html = buildHTML_map_32();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/31")) {
+      var html = buildHTML_map_31();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/30")) {
+      var html = buildHTML_map_30();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/29")) {
+      var html = buildHTML_map_29();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/28")) {
+      var html = buildHTML_map_28();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/27")) {
+      var html = buildHTML_map_27();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/26")) {
+      var html = buildHTML_map_26();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/25")) {
+      var html = buildHTML_map_25();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/24")) {
+      var html = buildHTML_map_24();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/23")) {
+      var html = buildHTML_map_23();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/22")) {
+      var html = buildHTML_map_22();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/21")) {
+      var html = buildHTML_map_21();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/20")) {
+      var html = buildHTML_map_20();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/19")) {
+      var html = buildHTML_map_19();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/18")) {
+      var html = buildHTML_map_18();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/17")) {
+      var html = buildHTML_map_17();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/16")) {
+      var html = buildHTML_map_16();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/15")) {
+      var html = buildHTML_map_15();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/14")) {
+      var html = buildHTML_map_14();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/13")) {
+      var html = buildHTML_map_13();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/12")) {
+      var html = buildHTML_map_12();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/11")) {
+      var html = buildHTML_map_11();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/10")) {
+      var html = buildHTML_map_10();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/9")) {
+      var html = buildHTML_map_9();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/8")) {
+      var html = buildHTML_map_8();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/7")) {
+      var html = buildHTML_map_7();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/6")) {
+      var html = buildHTML_map_6();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/5")) {
+      var html = buildHTML_map_5();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/4")) {
+      var html = buildHTML_map_4();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/3")) {
+      var html = buildHTML_map_3();
+      $('.prefecture-map').append(html)
+    } else if(document.URL.match("/maps/2")) {
+      var html = buildHTML_map_2();
+      $('.prefecture-map').append(html)
+    } else {
+      var html = buildHTML_map_1();
+      $('.prefecture-map').append(html)
+    } 
   });
 
   $(document).on('click','.location', function(e) {
