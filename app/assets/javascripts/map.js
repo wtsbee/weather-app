@@ -165,6 +165,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //福井県 --------------------------------------------------------------
+  function buildHTML_map_19(){
+    var html = `<div class="prefecture-map-19">
+                  <div id="Kofu_Yamanashi">
+                    <a class="location" data-prefecture="山梨県" data-location="甲府市">◉甲府市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

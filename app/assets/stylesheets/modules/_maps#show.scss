@@ -255,3 +255,17 @@
     left: 275px;
   }
 }
+// 山梨県 --------------------------------------------------------------
+.prefecture-map-19 {
+  background-image: image-url("maps/Yamanashi.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Kofu_Yamanashi {
+    @include location;
+    top: 190px;
+    left: 210px;
+  }
+}
