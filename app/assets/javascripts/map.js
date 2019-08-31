@@ -57,6 +57,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 福島県 --------------------------------------------------------------
+  function buildHTML_map_7(){
+    var html = `<div class="prefecture-map-7">
+                  <div id="Fukushima_Fukushima">
+                    <a class="location" data-prefecture="福島県" data-location="福島市">◉福島市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

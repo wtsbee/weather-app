@@ -87,3 +87,17 @@
     left: 305px;
   }
 }
+// 福島県 --------------------------------------------------------------
+.prefecture-map-7 {
+  background-image: image-url("maps/Fukushima.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Fukushima_Fukushima {
+    @include location;
+    top: 125px;
+    left: 325px;
+  }
+}
