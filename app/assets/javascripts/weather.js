@@ -60,4 +60,27 @@ $(function(){
     })
   })
 
+  // 月日選択のプルダウン
+  function formSetDay(){
+    var lastday = formSetLastDay($('.js-changeMonth').val());
+    var option = '';
+    for (var i = 1; i <= lastday; i++) {
+      if (i === $('.js-changeDay').val()){
+        option += '<option value="' + i + '" selected="selected">' + i + '</option>\n';
+      }else{
+        option += '<option value="' + i + '">' + i + '</option>\n';
+      }
+    }
+    $('.js-changeDay').html(option);
+  }
+
+  function formSetLastDay(month){
+    var lastday = new Array('', 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+    return lastday[month];
+  }
+
+  $('.js-changeYear, .js-changeMonth').change(function(){
+    formSetDay();
+  });
+
 });
