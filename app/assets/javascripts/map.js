@@ -120,6 +120,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 神奈川県 ------------------------------------------------------------
+  function buildHTML_map_14(){
+    var html = `<div class="prefecture-map-14">
+                  <div id="Yokohama_Kanagawa">
+                    <a class="location" data-prefecture="神奈川県" data-location="横浜市">◉横浜市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

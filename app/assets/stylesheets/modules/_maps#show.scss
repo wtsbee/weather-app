@@ -185,3 +185,17 @@
     left: 275px;
   }
 }
+// 神奈川県 ------------------------------------------------------------
+.prefecture-map-14 {
+  background-image: image-url("maps/Kanagawa.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Yokohama_Kanagawa {
+    @include location;
+    top: 215px;
+    left: 385px;
+  }
+}
