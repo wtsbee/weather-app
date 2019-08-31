@@ -45,3 +45,17 @@
     left: 200px;
   }
 }
+// 宮城県 --------------------------------------------------------------
+.prefecture-map-4 {
+  background-image: image-url("maps/Miyagi.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Sendai_Miyagi {
+    @include location;
+    top: 290px;
+    left: 220px;
+  }
+}

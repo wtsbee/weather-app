@@ -30,6 +30,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 宮城県 --------------------------------------------------------------
+  function buildHTML_map_4(){
+    var html = `<div class="prefecture-map-4">
+                  <div id="Sendai_Miyagi">
+                    <a class="location" data-prefecture="宮城県" data-location="仙台市">◉仙台市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
