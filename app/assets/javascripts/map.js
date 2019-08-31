@@ -2,7 +2,7 @@ $(function(){
 
   function buildHTML(){
     var html = `<div id="Sapporo">
-                  <a class="location" href="/maps/:map_id/weathers" >札幌</a>
+                  <a class="location" data-prefecture="北海道" data-location="札幌市">札幌市</a>
                 </div>`
     return html;
   }
@@ -21,16 +21,8 @@ $(function(){
   });
 
   $(document).on('click','.location', function(e) {
-    // var location_name = $(this).text();
-    // e.preventDefault();
-    var location_name = $(".location").text();
-    console.log(location_name);
-    $.ajax({
-      url: "/maps/:map_id/weathers",
-      type: "GET",
-      data: { location: location_name.toString() },
-      dataType: 'json'
-    })
-    
+    var prefecture = $(this).data("prefecture");
+    var location = $(this).data("location");
+    window.location.href = "/maps/:map_id/weathers?prefecture=" +  prefecture + "&location=" + location;
   });
 });
