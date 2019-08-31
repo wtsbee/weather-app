@@ -1,4 +1,4 @@
-$(function(){
+$(document).on('turbolinks:load', function(){
   var areaLinks = {
     1:"maps/1"
   };
