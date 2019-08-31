@@ -143,3 +143,17 @@
     left: 260px;
   }
 }
+// 埼玉県 --------------------------------------------------------------
+.prefecture-map-11 {
+  background-image: image-url("maps/Saitama.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Saitama_Saitama {
+    @include location;
+    top: 310px;
+    left: 375px;
+  }
+}

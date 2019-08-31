@@ -93,6 +93,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 群馬県 --------------------------------------------------------------
+  function buildHTML_map_11(){
+    var html = `<div class="prefecture-map-11">
+                  <div id="Saitama_Saitama">
+                    <a class="location" data-prefecture="埼玉県" data-location="さいたま市">◉さいたま市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
