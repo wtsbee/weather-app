@@ -283,3 +283,17 @@
     left: 280px;
   }
 }
+// 岐阜県 --------------------------------------------------------------
+.prefecture-map-21 {
+  background-image: image-url("maps/Gifu.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Gifu_Gifu {
+    @include location;
+    top: 370px;
+    left: 190px;
+  }
+}

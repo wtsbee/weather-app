@@ -183,6 +183,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //岐阜県 --------------------------------------------------------------
+  function buildHTML_map_21(){
+    var html = `<div class="prefecture-map-21">
+                  <div id="Gifu_Gifu">
+                    <a class="location" data-prefecture="岐阜県" data-location="岐阜市">◉岐阜市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
