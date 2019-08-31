@@ -269,3 +269,17 @@
     left: 210px;
   }
 }
+// 長野県 --------------------------------------------------------------
+.prefecture-map-20 {
+  background-image: image-url("maps/Nagano.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Nagano_Nagano {
+    @include location;
+    top: 110px;
+    left: 280px;
+  }
+}

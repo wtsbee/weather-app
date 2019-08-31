@@ -174,6 +174,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //長野県 --------------------------------------------------------------
+  function buildHTML_map_20(){
+    var html = `<div class="prefecture-map-20">
+                  <div id="Nagano_Nagano">
+                    <a class="location" data-prefecture="長野県" data-location="長野市">◉長野市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
