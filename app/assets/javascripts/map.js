@@ -102,6 +102,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 千葉県 --------------------------------------------------------------
+  function buildHTML_map_12(){
+    var html = `<div class="prefecture-map-12">
+                  <div id="Chiba_Chiba">
+                    <a class="location" data-prefecture="千葉県" data-location="千葉市">◉千葉市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

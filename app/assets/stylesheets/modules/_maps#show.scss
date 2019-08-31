@@ -157,3 +157,17 @@
     left: 375px;
   }
 }
+// 千葉県 --------------------------------------------------------------
+.prefecture-map-12 {
+  background-image: image-url("maps/Chiba.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Chiba_Chiba {
+    @include location;
+    top: 200px;
+    left: 185px;
+  }
+}
