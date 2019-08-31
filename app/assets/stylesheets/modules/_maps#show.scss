@@ -171,3 +171,17 @@
     left: 185px;
   }
 }
+// 東京都 --------------------------------------------------------------
+.prefecture-map-13 {
+  background-image: image-url("maps/Tokyo.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Tokyo_Tokyo {
+    @include location;
+    top: 225px;
+    left: 275px;
+  }
+}

@@ -111,6 +111,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 東京都 --------------------------------------------------------------
+  function buildHTML_map_13(){
+    var html = `<div class="prefecture-map-13">
+                  <div id="Tokyo_Tokyo">
+                    <a class="location" data-prefecture="東京都" data-location="東京">◉東京</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
