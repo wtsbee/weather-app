@@ -1,11 +1,11 @@
-.prefecture-map {
+// 北海道 --------------------------------------------------------------
+.prefecture-map-1 {
   background-image: image-url("maps/Hokkaido.png");
   background-size: cover;
   height: 480px;
   width: 500px;
   margin: 0 auto;
   position: relative;
-  // 北海道 --------------------------------------------------------------
   #Sapporo_Hokkaido {
     @include location;
     top: 290px;
@@ -13,8 +13,21 @@
   }
   #Kitami_Hokkaido {
     @include location;
-    position: absolute;
     top: 230px;
     left: 220px;
+  }
+}
+// 青森県 --------------------------------------------------------------
+.prefecture-map-2 {
+  background-image: image-url("maps/Aomori.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Aomori_Aomori {
+    @include location;
+    top: 265px;
+    left: 240px;
   }
 }

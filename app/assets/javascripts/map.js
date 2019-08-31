@@ -3,10 +3,19 @@ $(document).on('turbolinks:load', function(){
   function buildHTML_map_1(){
     var html = `<div class="prefecture-map-1">
                   <div id="Sapporo_Hokkaido">
-                    <a class="location" data-prefecture="北海道" data-location="札幌市">札幌市</a>
+                    <a class="location" data-prefecture="北海道" data-location="札幌市">◉札幌市</a>
                   </div>
                   <div id="Kitami_Hokkaido">
-                    <a class="location" data-prefecture="北海道" data-location="北見市">北見市</a>
+                    <a class="location" data-prefecture="北海道" data-location="北見市">◎北見市</a>
+                  </div>
+                </div>`
+    return html;
+  }
+
+  function buildHTML_map_2(){
+    var html = `<div class="prefecture-map-2">
+                  <div id="Aomori_Aomori">
+                    <a class="location" data-prefecture="青森県" data-location="青森市">◉青森市</a>
                   </div>
                 </div>`
     return html;
