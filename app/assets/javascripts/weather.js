@@ -83,4 +83,8 @@ $(function(){
     formSetDay();
   });
 
+  // フラッシュメッセージの設定
+  setTimeout(function() {
+    $('.alert').remove();
+  }, 1000);
 });
