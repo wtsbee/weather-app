@@ -11,7 +11,7 @@ class WeathersController < ApplicationController
 
   def create
     if params[:from_dt_month] > params[:to_dt_month] || ( params[:from_dt_month] == params[:to_dt_month] && params[:from_dt_day] > params[:to_dt_day] )
-      redirect_to map_weathers_path(location: params[:location], prefecture: params[:prefecture])
+      redirect_to map_weathers_path(location: params[:location], prefecture: params[:prefecture]), flash: {alert:'入力に誤りがあります'}
     elsif
       from_dt = params[:from_dt_month] + "/" + params[:from_dt_day]
       to_dt = params[:to_dt_month] + "/" + params[:to_dt_day]

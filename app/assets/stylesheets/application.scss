@@ -27,3 +27,11 @@ a{
   color: black;
 }
 
+.notifications {
+  color: white;
+  text-align: center;
+
+  .alert {
+    background-color: #FF5F17;
+  }
+}
