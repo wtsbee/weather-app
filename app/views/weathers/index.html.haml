@@ -1,14 +1,11 @@
-.prefecture
-  = @prefecture
-.location
-  = @location
-
 .folder-lists-container
   = form_with url: map_weathers_path, local: true, class: 'submit-form' do |f|
+    .prefecture
+      = @prefecture
     = f.hidden_field :prefecture, value: @prefecture
+    .location
+      = @location
     = f.hidden_field :location, value: @location
-    -# = f.text_field :from_dt, class: 'from_dt'
-    -# = f.text_field :to_dt, class: 'to_dt'
     .start_date
       開始日
       %select.js-changeMonth{name: "from_dt_month"}
