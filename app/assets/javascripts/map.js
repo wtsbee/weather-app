@@ -201,6 +201,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //愛知県 --------------------------------------------------------------
+  function buildHTML_map_23(){
+    var html = `<div class="prefecture-map-23">
+                  <div id="Nagoya_Aichi">
+                    <a class="location" data-prefecture="愛知県" data-location="名古屋市">◉名古屋市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

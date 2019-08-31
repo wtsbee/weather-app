@@ -311,3 +311,17 @@
     left: 260px;
   }
 }
+// 愛知県 --------------------------------------------------------------
+.prefecture-map-23 {
+  background-image: image-url("maps/Aichi.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Nagoya_Aichi {
+    @include location;
+    top: 160px;
+    left: 110px;
+  }
+}
