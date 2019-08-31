@@ -147,6 +147,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //石川県 --------------------------------------------------------------
+  function buildHTML_map_17(){
+    var html = `<div class="prefecture-map-17">
+                  <div id="Kanazawa_Ishikawa">
+                    <a class="location" data-prefecture="石川県" data-location="金沢市">◉金沢市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

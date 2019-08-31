@@ -227,3 +227,17 @@
     left: 225px;
   }
 }
+// 石川県 --------------------------------------------------------------
+.prefecture-map-17 {
+  background-image: image-url("maps/Ishikawa.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Kanazawa_Ishikawa {
+    @include location;
+    top: 315px;
+    left: 210px;
+  }
+}
