@@ -48,6 +48,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 山形県 --------------------------------------------------------------
+  function buildHTML_map_6(){
+    var html = `<div class="prefecture-map-6">
+                  <div id="Yamagata_Yamagata">
+                    <a class="location" data-prefecture="山形県" data-location="山形市">◉山形市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

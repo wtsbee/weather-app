@@ -73,3 +73,17 @@
     left: 200px;
   }
 }
+// 山形県 --------------------------------------------------------------
+.prefecture-map-6 {
+  background-image: image-url("maps/Yamagata.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Yamagata_Yamagata {
+    @include location;
+    top: 300px;
+    left: 305px;
+  }
+}
