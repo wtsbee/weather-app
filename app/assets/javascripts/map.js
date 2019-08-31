@@ -129,6 +129,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 新潟県 --------------------------------------------------------------
+  function buildHTML_map_15(){
+    var html = `<div class="prefecture-map-15">
+                  <div id="Niigata_Niigata">
+                    <a class="location" data-prefecture="新潟県" data-location="新潟市">◉新潟市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

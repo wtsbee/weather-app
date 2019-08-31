@@ -199,3 +199,17 @@
     left: 385px;
   }
 }
+// 新潟県 --------------------------------------------------------------
+.prefecture-map-15 {
+  background-image: image-url("maps/Niigata.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Niigata_Niigata {
+    @include location;
+    top: 180px;
+    left: 300px;
+  }
+}
