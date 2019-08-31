@@ -213,3 +213,17 @@
     left: 300px;
   }
 }
+// 富山県 --------------------------------------------------------------
+.prefecture-map-16 {
+  background-image: image-url("maps/Toyama.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Toyama_Toyama {
+    @include location;
+    top: 195px;
+    left: 225px;
+  }
+}

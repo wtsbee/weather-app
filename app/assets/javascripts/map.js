@@ -138,6 +138,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //富山県 --------------------------------------------------------------
+  function buildHTML_map_16(){
+    var html = `<div class="prefecture-map-16">
+                  <div id="Toyama_Toyama">
+                    <a class="location" data-prefecture="富山県" data-location="富山市">◉富山市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
