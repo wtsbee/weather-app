@@ -339,3 +339,17 @@
     left: 275px;
   }
 }
+// 滋賀県 --------------------------------------------------------------
+.prefecture-map-25 {
+  background-image: image-url("maps/Shiga.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Hikone_Shiga {
+    @include location;
+    top: 235px;
+    left: 305px;
+  }
+}

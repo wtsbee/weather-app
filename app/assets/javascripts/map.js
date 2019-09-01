@@ -219,6 +219,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //滋賀県 --------------------------------------------------------------
+  function buildHTML_map_25(){
+    var html = `<div class="prefecture-map-25">
+                  <div id="Hikone_Shiga">
+                    <a class="location" data-prefecture="滋賀県" data-location="彦根市">◎彦根市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
