@@ -17,7 +17,7 @@ class WeathersController < ApplicationController
       # binding.pry
       from_dt = params[:from_dt_month] + "/" + params[:from_dt_day]
       to_dt = params[:to_dt_month] + "/" + params[:to_dt_day]
-      uri = URI.parse("http://192.168.33.10:8000/")
+      uri = URI.parse("https://weather-app-watase-2019.herokuapp.com/")
       request = Net::HTTP::Post.new(uri)
       request.content_type = "application/json"
       request.body = JSON.dump({
