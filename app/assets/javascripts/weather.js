@@ -89,5 +89,5 @@ $(document).on('turbolinks:load', function(){
   // フラッシュメッセージの設定
   setTimeout(function() {
     $('.alert').remove();
-  }, 1000);
+  }, 2000);
 });
