@@ -10,9 +10,11 @@ class WeathersController < ApplicationController
   end
 
   def create
-    if params[:from_dt_month] > params[:to_dt_month] || ( params[:from_dt_month] == params[:to_dt_month] && params[:from_dt_day] > params[:to_dt_day] )
+    if params[:from_dt_month].to_i > params[:to_dt_month].to_i || ( params[:from_dt_month].to_i == params[:to_dt_month].to_i && params[:from_dt_day].to_i > params[:to_dt_day].to_i )
       redirect_to map_weathers_path(location: params[:location], prefecture: params[:prefecture]), flash: {alert:'入力に誤りがあります'}
+      # binding.pry
     elsif
+      # binding.pry
       from_dt = params[:from_dt_month] + "/" + params[:from_dt_day]
       to_dt = params[:to_dt_month] + "/" + params[:to_dt_day]
       uri = URI.parse("http://192.168.33.10:8000/")
