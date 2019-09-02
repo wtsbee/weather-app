@@ -228,6 +228,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //京都府 --------------------------------------------------------------
+  function buildHTML_map_26(){
+    var html = `<div class="prefecture-map-26">
+                  <div id="Kyoto_Kyoto">
+                    <a class="location" data-prefecture="京都府" data-location="京都市">◉京都市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
