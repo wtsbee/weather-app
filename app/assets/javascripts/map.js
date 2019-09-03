@@ -138,7 +138,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //富山県 --------------------------------------------------------------
+  // 富山県 --------------------------------------------------------------
   function buildHTML_map_16(){
     var html = `<div class="prefecture-map-16">
                   <div id="Toyama_Toyama">
@@ -147,7 +147,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //石川県 --------------------------------------------------------------
+  // 石川県 --------------------------------------------------------------
   function buildHTML_map_17(){
     var html = `<div class="prefecture-map-17">
                   <div id="Kanazawa_Ishikawa">
@@ -156,7 +156,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //福井県 --------------------------------------------------------------
+  // 福井県 --------------------------------------------------------------
   function buildHTML_map_18(){
     var html = `<div class="prefecture-map-18">
                   <div id="Fukui_Fukui">
@@ -165,7 +165,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //福井県 --------------------------------------------------------------
+  // 福井県 --------------------------------------------------------------
   function buildHTML_map_19(){
     var html = `<div class="prefecture-map-19">
                   <div id="Kofu_Yamanashi">
@@ -174,7 +174,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //長野県 --------------------------------------------------------------
+  // 長野県 --------------------------------------------------------------
   function buildHTML_map_20(){
     var html = `<div class="prefecture-map-20">
                   <div id="Nagano_Nagano">
@@ -183,7 +183,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //岐阜県 --------------------------------------------------------------
+  // 岐阜県 --------------------------------------------------------------
   function buildHTML_map_21(){
     var html = `<div class="prefecture-map-21">
                   <div id="Gifu_Gifu">
@@ -192,7 +192,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //岐阜県 --------------------------------------------------------------
+  // 静岡県 --------------------------------------------------------------
   function buildHTML_map_22(){
     var html = `<div class="prefecture-map-22">
                   <div id="Shizuoka_Shizuoka">
@@ -201,7 +201,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //愛知県 --------------------------------------------------------------
+  // 愛知県 --------------------------------------------------------------
   function buildHTML_map_23(){
     var html = `<div class="prefecture-map-23">
                   <div id="Nagoya_Aichi">
@@ -210,7 +210,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //三重県 --------------------------------------------------------------
+  // 三重県 --------------------------------------------------------------
   function buildHTML_map_24(){
     var html = `<div class="prefecture-map-24">
                   <div id="Tsu_Mie">
@@ -219,7 +219,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //滋賀県 --------------------------------------------------------------
+  // 滋賀県 --------------------------------------------------------------
   function buildHTML_map_25(){
     var html = `<div class="prefecture-map-25">
                   <div id="Hikone_Shiga">
@@ -228,7 +228,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //京都府 --------------------------------------------------------------
+  // 京都府 --------------------------------------------------------------
   function buildHTML_map_26(){
     var html = `<div class="prefecture-map-26">
                   <div id="Kyoto_Kyoto">
@@ -237,7 +237,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //大阪府 --------------------------------------------------------------
+  // 大阪府 --------------------------------------------------------------
   function buildHTML_map_27(){
     var html = `<div class="prefecture-map-27">
                   <div id="Osaka_Osaka">
@@ -246,7 +246,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //兵庫県 --------------------------------------------------------------
+  // 兵庫県 --------------------------------------------------------------
   function buildHTML_map_28(){
     var html = `<div class="prefecture-map-28">
                   <div id="Kobe_Hyogo">
@@ -255,7 +255,7 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
-  //奈良県 --------------------------------------------------------------
+  // 奈良県 --------------------------------------------------------------
   function buildHTML_map_29(){
     var html = `<div class="prefecture-map-29">
                   <div id="Nara_Nara">
@@ -269,6 +269,15 @@ $(document).on('turbolinks:load', function(){
     var html = `<div class="prefecture-map-30">
                   <div id="Wakayama_Wakayama">
                     <a class="location" data-prefecture="和歌山県" data-location="和歌山市">◉和歌山市</a>
+                  </div>
+                </div>`
+    return html;
+  }
+  // 鳥取県 --------------------------------------------------------------
+  function buildHTML_map_31(){
+    var html = `<div class="prefecture-map-31">
+                  <div id="Tottori_Tottori">
+                    <a class="location" data-prefecture="鳥取県" data-location="鳥取市">◉鳥取市</a>
                   </div>
                 </div>`
     return html;

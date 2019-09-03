@@ -423,3 +423,17 @@
     left: 110px;
   }
 }
+// 鳥取県 --------------------------------------------------------------
+.prefecture-map-31 {
+  background-image: image-url("maps/Tottori.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Tottori_Tottori {
+    @include location;
+    top: 180px;
+    left: 385px;
+  }
+}
