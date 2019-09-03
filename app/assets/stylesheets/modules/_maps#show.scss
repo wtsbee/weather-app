@@ -451,3 +451,17 @@
     left: 350px;
   }
 }
+// 岡山県 --------------------------------------------------------------
+.prefecture-map-33 {
+  background-image: image-url("maps/Okayama.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Okayama_Okayama {
+    @include location;
+    top: 355px;
+    left: 265px;
+  }
+}

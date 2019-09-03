@@ -291,6 +291,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 岡山県 --------------------------------------------------------------
+  function buildHTML_map_33(){
+    var html = `<div class="prefecture-map-33">
+                  <div id="Okayama_Okayama">
+                    <a class="location" data-prefecture="岡山県" data-location="岡山市">◉岡山市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
