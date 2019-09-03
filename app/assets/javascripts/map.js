@@ -246,6 +246,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //兵庫県 --------------------------------------------------------------
+  function buildHTML_map_28(){
+    var html = `<div class="prefecture-map-28">
+                  <div id="Kobe_Hyogo">
+                    <a class="location" data-prefecture="兵庫県" data-location="神戸市">◉神戸市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
