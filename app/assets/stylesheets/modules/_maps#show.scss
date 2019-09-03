@@ -479,3 +479,17 @@
     left: 150px;
   }
 }
+// 山口県 --------------------------------------------------------------
+.prefecture-map-35 {
+  background-image: image-url("maps/Yamaguchi.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Shimonoseki_Yamaguchi {
+    @include location;
+    top: 330px;
+    left: 40px;
+  }
+}

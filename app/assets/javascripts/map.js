@@ -309,6 +309,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 山口県 --------------------------------------------------------------
+  function buildHTML_map_35(){
+    var html = `<div class="prefecture-map-35">
+                  <div id="Shimonoseki_Yamaguchi">
+                    <a class="location" data-prefecture="山口県" data-location="下関市">◎下関市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
