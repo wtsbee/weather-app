@@ -465,3 +465,17 @@
     left: 265px;
   }
 }
+// 広島県 --------------------------------------------------------------
+.prefecture-map-34 {
+  background-image: image-url("maps/Hiroshima.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Hiroshima_Hiroshima {
+    @include location;
+    top: 340px;
+    left: 150px;
+  }
+}

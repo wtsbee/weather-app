@@ -300,6 +300,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 広島県 --------------------------------------------------------------
+  function buildHTML_map_34(){
+    var html = `<div class="prefecture-map-34">
+                  <div id="Hiroshima_Hiroshima">
+                    <a class="location" data-prefecture="広島県" data-location="広島市">◉広島市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
