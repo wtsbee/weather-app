@@ -237,6 +237,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //大阪府 --------------------------------------------------------------
+  function buildHTML_map_27(){
+    var html = `<div class="prefecture-map-27">
+                  <div id="Osaka_Osaka">
+                    <a class="location" data-prefecture="大阪府" data-location="大阪市">◉大阪市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

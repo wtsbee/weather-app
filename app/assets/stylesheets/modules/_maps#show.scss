@@ -367,3 +367,17 @@
     left: 345px;
   }
 }
+// 大阪府 --------------------------------------------------------------
+.prefecture-map-27 {
+  background-image: image-url("maps/Osaka.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Osaka_Osaka {
+    @include location;
+    top: 230px;
+    left: 275px;
+  }
+}
