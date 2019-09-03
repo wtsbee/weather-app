@@ -264,6 +264,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 和歌山県 ------------------------------------------------------------
+  function buildHTML_map_30(){
+    var html = `<div class="prefecture-map-30">
+                  <div id="Wakayama_Wakayama">
+                    <a class="location" data-prefecture="和歌山県" data-location="和歌山市">◉和歌山市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

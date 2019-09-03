@@ -409,3 +409,17 @@
     left: 220px;
   }
 }
+// 和歌山県 ------------------------------------------------------------
+.prefecture-map-30 {
+  background-image: image-url("maps/Wakayama.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Wakayama_Wakayama {
+    @include location;
+    top: 80px;
+    left: 110px;
+  }
+}
