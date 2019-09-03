@@ -282,6 +282,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 島根県 --------------------------------------------------------------
+  function buildHTML_map_32(){
+    var html = `<div class="prefecture-map-32">
+                  <div id="Matsue_Shimane">
+                    <a class="location" data-prefecture="島根県" data-location="松江市">◉松江市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

@@ -437,3 +437,17 @@
     left: 385px;
   }
 }
+// 島根県 --------------------------------------------------------------
+.prefecture-map-32 {
+  background-image: image-url("maps/Shimane.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Matsue_Shimane {
+    @include location;
+    top: 210px;
+    left: 350px;
+  }
+}
