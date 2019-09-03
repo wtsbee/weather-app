@@ -395,3 +395,17 @@
     left: 325px;
   }
 }
+// 奈良県 --------------------------------------------------------------
+.prefecture-map-29 {
+  background-image: image-url("maps/Nara.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Nara_Nara {
+    @include location;
+    top: 60px;
+    left: 220px;
+  }
+}

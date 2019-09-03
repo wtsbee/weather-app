@@ -255,6 +255,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //奈良県 --------------------------------------------------------------
+  function buildHTML_map_29(){
+    var html = `<div class="prefecture-map-29">
+                  <div id="Nara_Nara">
+                    <a class="location" data-prefecture="奈良県" data-location="奈良市">◉奈良市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
