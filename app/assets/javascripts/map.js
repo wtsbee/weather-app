@@ -336,6 +336,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 愛媛県 --------------------------------------------------------------
+  function buildHTML_map_38(){
+    var html = `<div class="prefecture-map-38">
+                  <div id="Matsuyama_Ehime">
+                    <a class="location" data-prefecture="愛媛県" data-location="松山市">◉松山市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

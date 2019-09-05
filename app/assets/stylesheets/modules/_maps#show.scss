@@ -521,3 +521,17 @@
     left: 270px;
   }
 }
+// 愛媛県 --------------------------------------------------------------
+.prefecture-map-38 {
+  background-image: image-url("maps/Ehime.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Matsuyama_Ehime {
+    @include location;
+    top: 140px;
+    left: 230px;
+  }
+}
