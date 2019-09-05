@@ -318,6 +318,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 徳島県 --------------------------------------------------------------
+  function buildHTML_map_36(){
+    var html = `<div class="prefecture-map-36">
+                  <div id="Tokushima_Tokushima">
+                    <a class="location" data-prefecture="徳島県" data-location="徳島市">◉徳島市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

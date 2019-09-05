@@ -493,3 +493,17 @@
     left: 40px;
   }
 }
+// 徳島県 --------------------------------------------------------------
+.prefecture-map-36 {
+  background-image: image-url("maps/Tokushima.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Tokushima_Tokushima {
+    @include location;
+    top: 155px;
+    left: 400px;
+  }
+}
