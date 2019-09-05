@@ -507,3 +507,17 @@
     left: 400px;
   }
 }
+// 香川県 --------------------------------------------------------------
+.prefecture-map-37 {
+  background-image: image-url("maps/Kagawa.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Takamatsu_Kagawa {
+    @include location;
+    top: 210px;
+    left: 270px;
+  }
+}

@@ -327,6 +327,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 香川県 --------------------------------------------------------------
+  function buildHTML_map_37(){
+    var html = `<div class="prefecture-map-37">
+                  <div id="Takamatsu_Kagawa">
+                    <a class="location" data-prefecture="香川県" data-location="高松市">◉高松市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
