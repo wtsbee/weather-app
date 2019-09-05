@@ -345,6 +345,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 高知県 --------------------------------------------------------------
+  function buildHTML_map_39(){
+    var html = `<div class="prefecture-map-39">
+                  <div id="Kochi_Kochi">
+                    <a class="location" data-prefecture="高知県" data-location="高知市">◉高知市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

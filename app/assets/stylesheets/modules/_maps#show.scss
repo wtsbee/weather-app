@@ -535,3 +535,17 @@
     left: 230px;
   }
 }
+// 高知県 --------------------------------------------------------------
+.prefecture-map-39 {
+  background-image: image-url("maps/Kochi.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Kochi_Kochi {
+    @include location;
+    top: 165px;
+    left: 270px;
+  }
+}
