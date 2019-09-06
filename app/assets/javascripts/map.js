@@ -381,6 +381,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 熊本県 --------------------------------------------------------------
+  function buildHTML_map_43(){
+    var html = `<div class="prefecture-map-43">
+                  <div id="Kumamoto_Kumamoto">
+                    <a class="location" data-prefecture="熊本県" data-location="熊本市">◉熊本市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

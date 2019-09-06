@@ -591,3 +591,17 @@
     left: 345px;
   }
 }
+// 熊本県 --------------------------------------------------------------
+.prefecture-map-43 {
+  background-image: image-url("maps/Kumamoto.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Kumamoto_Kumamoto {
+    @include location;
+    top: 175px;
+    left: 270px;
+  }
+}
