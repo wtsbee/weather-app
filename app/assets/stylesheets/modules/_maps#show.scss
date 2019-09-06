@@ -563,3 +563,17 @@
     left: 165px;
   }
 }
+// 佐賀県 --------------------------------------------------------------
+.prefecture-map-41 {
+  background-image: image-url("maps/Saga.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Saga_Saga {
+    @include location;
+    top: 250px;
+    left: 325px;
+  }
+}

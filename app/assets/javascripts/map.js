@@ -363,6 +363,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 佐賀県 --------------------------------------------------------------
+  function buildHTML_map_41(){
+    var html = `<div class="prefecture-map-41">
+                  <div id="Saga_Saga">
+                    <a class="location" data-prefecture="佐賀県" data-location="佐賀市">◉佐賀市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
