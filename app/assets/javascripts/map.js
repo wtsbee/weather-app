@@ -354,6 +354,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 福岡県 --------------------------------------------------------------
+  function buildHTML_map_40(){
+    var html = `<div class="prefecture-map-40">
+                  <div id="Fukuoka_Fukuoka">
+                    <a class="location" data-prefecture="福岡県" data-location="福岡市">◉福岡市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

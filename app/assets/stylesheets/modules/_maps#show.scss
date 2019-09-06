@@ -549,3 +549,17 @@
     left: 270px;
   }
 }
+// 福岡県 --------------------------------------------------------------
+.prefecture-map-40 {
+  background-image: image-url("maps/Fukuoka.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Fukuoka_Fukuoka {
+    @include location;
+    top: 185px;
+    left: 165px;
+  }
+}
