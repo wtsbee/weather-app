@@ -577,3 +577,17 @@
     left: 325px;
   }
 }
+// 長崎県 --------------------------------------------------------------
+.prefecture-map-42 {
+  background-image: image-url("maps/Nagasaki.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Nagasaki_Nagasaki {
+    @include location;
+    top: 375px;
+    left: 345px;
+  }
+}

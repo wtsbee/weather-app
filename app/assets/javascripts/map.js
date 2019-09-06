@@ -372,6 +372,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 長崎県 --------------------------------------------------------------
+  function buildHTML_map_42(){
+    var html = `<div class="prefecture-map-42">
+                  <div id="Nagasaki_Nagasaki">
+                    <a class="location" data-prefecture="長崎県" data-location="長崎市">◉長崎市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 
