@@ -390,6 +390,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 大分県 --------------------------------------------------------------
+  function buildHTML_map_44(){
+    var html = `<div class="prefecture-map-44">
+                  <div id="Oita_Oita">
+                    <a class="location" data-prefecture="大分県" data-location="大分市">◉大分市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

@@ -605,3 +605,17 @@
     left: 270px;
   }
 }
+// 大分県 --------------------------------------------------------------
+.prefecture-map-44 {
+  background-image: image-url("maps/Oita.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Oita_Oita {
+    @include location;
+    top: 230px;
+    left: 305px;
+  }
+}
