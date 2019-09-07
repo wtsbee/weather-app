@@ -408,6 +408,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 鹿児島県 ------------------------------------------------------------
+  function buildHTML_map_46(){
+    var html = `<div class="prefecture-map-46">
+                  <div id="Kagoshima_Kagoshima">
+                    <a class="location" data-prefecture="鹿児島県" data-location="鹿児島市">◉鹿児島市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

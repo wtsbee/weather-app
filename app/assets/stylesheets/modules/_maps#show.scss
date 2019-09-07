@@ -633,3 +633,17 @@
     left: 265px;
   }
 }
+// 鹿児島県 ------------------------------------------------------------
+.prefecture-map-46 {
+  background-image: image-url("maps/Kagoshima.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Kagoshima_Kagoshima {
+    @include location;
+    top: 150px;
+    left: 230px;
+  }
+}
