@@ -665,4 +665,9 @@
     top: 315px;
     left: 285px;
   }
+  #Kumejima_Okinawa {
+    @include location;
+    top: 255px;
+    left: 45px;
+  }
 }

@@ -426,6 +426,9 @@ $(document).on('turbolinks:load', function(){
                   <div id="Naha_Okinawa">
                     <a class="location" data-prefecture="沖縄県" data-location="那覇市">◉那覇市</a>
                   </div>
+                  <div id="Kumejima_Okinawa">
+                    <a class="location" data-prefecture="沖縄県" data-location="久米島">◎久米島</a>
+                  </div>
                 </div>`
     return html;
   }
