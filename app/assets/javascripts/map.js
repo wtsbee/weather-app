@@ -399,6 +399,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 宮崎県 --------------------------------------------------------------
+  function buildHTML_map_45(){
+    var html = `<div class="prefecture-map-45">
+                  <div id="Miyazaki_Miyazaki">
+                    <a class="location" data-prefecture="大分県" data-location="宮崎市">◉宮崎市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

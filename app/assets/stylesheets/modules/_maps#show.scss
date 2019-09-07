@@ -619,3 +619,17 @@
     left: 305px;
   }
 }
+// 宮崎県 --------------------------------------------------------------
+.prefecture-map-45 {
+  background-image: image-url("maps/Miyazaki.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Miyazaki_Miyazaki {
+    @include location;
+    top: 300px;
+    left: 265px;
+  }
+}
