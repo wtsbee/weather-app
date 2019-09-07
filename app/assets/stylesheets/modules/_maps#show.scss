@@ -646,4 +646,9 @@
     top: 150px;
     left: 230px;
   }
+  #Yakushima_Kagoshima {
+    @include location;
+    top: 435px;
+    left: 225px;
+  }
 }

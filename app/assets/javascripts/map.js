@@ -414,6 +414,9 @@ $(document).on('turbolinks:load', function(){
                   <div id="Kagoshima_Kagoshima">
                     <a class="location" data-prefecture="鹿児島県" data-location="鹿児島市">◉鹿児島市</a>
                   </div>
+                  <div id="Yakushima_Kagoshima">
+                    <a class="location" data-prefecture="鹿児島県" data-location="屋久島">◎屋久島</a>
+                  </div>
                 </div>`
     return html;
   }
