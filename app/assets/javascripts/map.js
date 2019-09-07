@@ -420,6 +420,15 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  // 沖縄県 --------------------------------------------------------------
+  function buildHTML_map_47(){
+    var html = `<div class="prefecture-map-47">
+                  <div id="Naha_Okinawa">
+                    <a class="location" data-prefecture="沖縄県" data-location="那覇市">◉那覇市</a>
+                  </div>
+                </div>`
+    return html;
+  }
 
   $(window).bind("load", function(){
 

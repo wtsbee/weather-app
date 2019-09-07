@@ -652,3 +652,17 @@
     left: 225px;
   }
 }
+// 沖縄県 --------------------------------------------------------------
+.prefecture-map-47 {
+  background-image: image-url("maps/Okinawa.png");
+  background-size: cover;
+  height: 480px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  #Naha_Okinawa {
+    @include location;
+    top: 315px;
+    left: 285px;
+  }
+}
